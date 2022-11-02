@@ -1,0 +1,343 @@
+<mjml>
+<mj-head>
+ <mj-font name="Raleway" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap" />
+  <mj-style>
+    body {
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .logo-container{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .title {
+      padding-top: 20px;
+      padding-bottom: 10px;
+      font-size: 24px;
+    }
+
+    .image img {
+      width: 144px !important;
+      margin: 0 auto;
+    }
+
+    .btn-icon a {
+      background-repeat: no-repeat !important;
+      background-position: 12px 50% !important;
+      background-size: 34px !important;
+    }
+
+    .btn-personal a {
+      background-image: url('./images/personal-loans-icon@2x.png') !important;
+    }
+
+    .btn-credit a {
+      background-image: url('./images/credit-cards-icon@2x.png') !important;
+    }
+
+    .btn-insurance a {
+      background-image: url('./images/insurance-offers-icon@2x.png') !important;
+    }
+
+    .btn-business a {
+      background-image: url('./images/business-loans-icon@2x.png') !important;
+    }
+
+    @media (min-width: 480px) {
+      .logo-container{
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .title {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 26px;
+      }
+
+      .image img {
+        width: 324px !important;
+        padding-bottom: 14px !important;
+      }
+
+      .button {
+        padding-bottom: 40px !important;
+      }
+
+      .button table {
+        width: 368px !important;
+      }
+
+      .dashed-image img {
+        width: 366px !important;
+      }
+
+      .content-title {
+        padding-top: 40px !important;
+        padding-bottom: 24px !important;
+      }
+
+      .content-desk {
+        padding-top: 24px !important;
+        padding-bottom: 16px !important;
+      }
+
+      .btn-odd {
+        padding: 9px 10px 9px 20px !important;
+      }
+
+      .btn-even {
+        padding: 9px 20px 9px 10px !important;
+      }
+
+      .btn-discover {
+        padding: 15px 20% !important;
+      }
+
+      .footer-text-top {
+        padding: 40px 70px 10px !important;
+      }
+
+      .footer-text-middle {
+        padding: 10px 70px !important;
+      }
+
+      .footer-text-bottom {
+        padding: 10px 70px 40px !important;
+      }
+    }
+  </mj-style>
+</mj-head>
+  <mj-body background-color="#fff" css-class="body" padding-bottom="0">
+    <mj-section css-class="logo-container" background-color="#ffffff" padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-image width="171px" src="./images/logo@2x.png" alt="Think Wallet" padding-top="0px" padding-bottom="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-url="images/bg.jpg" background-size="cover" background-repeat="no-repeat" padding-top="0px" padding-bottom="0px">
+      <mj-column width="100%">
+        <mj-text
+          padding="0px 16px"
+          color="#262525"
+          font-family="Raleway, Arial"
+          font-size="24px"
+          font-weight="700"
+          align="center"
+          line-height="1.2"
+        >
+          <div class="title">
+            [Firstname],<br />
+            thank you for signing up for ThinkWallet.com
+          </div>
+        </mj-text>
+        <mj-image css-class="image" src="./images/img@2x.png" padding-top="0px" padding-bottom="0px"></mj-image>
+        <mj-text
+          font-family="Raleway, Arial"
+          align="center" color="#262525"
+          font-size="18px"
+          font-weight="400"
+          line-height="25px"
+          padding="10px 16px"
+        >
+          <span style="font-weight: 500;">Welcome aboard!</span><br />
+          We are excited to be with you on your credit journey</mj-text>
+        <mj-button
+          css-class="button"
+          href="http://credit.thinkwallet.com/overview"
+          width="288px"
+          height="62px"
+          padding="10px 16px 20px"
+
+          color="#fff"
+          font-family="Raleway, Arial"
+          font-size="16px"
+          font-weight="800"
+          align="center"
+          background-color="#FF6011"
+          border-radius="8px"
+          box-shadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
+        >Log In To My Account</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column>
+        <mj-text
+          css-class="content-title"
+          padding-top="30px"
+          padding-bottom="20px"
+          align="center"
+          color="#262525"
+          font-size="20px"
+          font-weight="700"
+          font-family="Raleway, Arial"
+          line-height="28px"
+        >With your free credit report at ThinkWallet.com, understanding your credit score just got easier.
+        </mj-text>
+        <mj-image css-class="dashed-image" src="images/dashed-line@2x.png" width="288px" padding-top="0px" padding-bottom="0px"></mj-image>
+        <mj-text
+          css-class="content-desk"
+          padding-top="20px"
+          padding-bottom="10px"
+          align="center"
+          font-family="Raleway, Arial"
+          color="#262525"
+          font-size="16px"
+          font-weight="500"
+        >Discover how else ThinkWallet can help you meet your financial needs:</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column vertical-align="top" width="50%">
+        <mj-button
+          href="http://credit.thinkwallet.com/overview"
+          css-class="btn-icon btn-personal btn-odd"
+          width="100%"
+          height="58px"
+          padding="10px 16px"
+          inner-padding="18px 16px 18px 58px"
+          color="#0085B3"
+          font-family="Raleway, Arial"
+          font-size="16px"
+          font-weight="700"
+          text-align="left"
+          border="1px solid #A8C7DB"
+          border-radius="16px"
+          background-color="#fff"
+        >
+          Personal Loans
+        </mj-button>
+      </mj-column>
+      <mj-column vertical-align="top" width="50%">
+        <mj-button
+          href="http://credit.thinkwallet.com/overview"
+          css-class="btn-icon btn-credit btn-even"
+          width="100%"
+          height="58px"
+          padding="10px 16px"
+          inner-padding="18px 16px 18px 58px"
+          color="#0085B3"
+          font-family="Raleway, Arial"
+          font-size="16px"
+          font-weight="700"
+          text-align="left"
+          border="1px solid #A8C7DB"
+          border-radius="16px"
+          background-color="#fff"
+        >
+          Credit Cards
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column vertical-align="top" width="50%">
+        <mj-button
+          href="http://credit.thinkwallet.com/overview"
+          css-class="btn-icon btn-insurance btn-odd"
+          width="100%"
+          height="58px"
+          padding="10px 16px"
+          inner-padding="18px 16px 18px 58px"
+          color="#0085B3"
+          font-family="Raleway, Arial"
+          font-size="16px"
+          font-weight="700"
+          text-align="left"
+          border="1px solid #A8C7DB"
+          border-radius="16px"
+          background-color="#fff"
+        >
+          Insurance Offers
+        </mj-button>
+      </mj-column>
+      <mj-column vertical-align="top" width="50%">
+        <mj-button
+          href="http://credit.thinkwallet.com/overview"
+          css-class="btn-icon btn-business btn-even"
+          width="100%"
+          height="58px"
+          padding="10px 16px"
+          inner-padding="18px 16px 18px 58px"
+          color="#0085B3"
+          font-family="Raleway, Arial"
+          font-size="16px"
+          font-weight="700"
+          text-align="left"
+          border="1px solid #A8C7DB"
+          border-radius="16px"
+          background-color="#fff"
+        >
+          Business Loans
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="0px">
+      <mj-column vertical-align="top">
+        <mj-button
+          href="http://credit.thinkwallet.com/overview"
+          css-class="btn-discover"
+          width="100%"
+          height="62px"
+          padding="10px 16px"
+          color="#0085B3"
+          font-family="Raleway, Arial"
+          font-size="16px"
+          font-weight="800"
+          text-align="center"
+          border="1px solid #A8C7DB"
+          border-radius="16px"
+          background-color="#fff"
+        >
+          Discover More Here
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="0">
+      <mj-column
+        inner-background-color="#E6F5FF"
+        inner-border-radius="8px 8px 0px 0px"
+        padding="10px 16px 0"
+      >
+        <mj-text
+          css-class="footer-text-top"
+          padding="20px 16px 5px"
+          align="center"
+          color="#262525"
+          font-size="16px"
+          font-weight="700"
+          font-family="Raleway, Arial"
+        >We're here to help!</mj-text>
+        <mj-text
+          css-class="footer-text-middle"
+          padding="5px 16px"
+          align="center"
+          color="#262525"
+          font-size="14px"
+          font-weight="500"
+          font-family="Raleway, Arial"
+          line-height="20px"
+        >
+          If you didn't sign up for ThinkWallet®, get in touch with us at<br />
+          <a href="mailto:support@thinkwallet.com" style="font-weight: 700;">support@thinkwallet.com</a>
+        </mj-text>
+        <mj-text
+          css-class="footer-text-bottom"
+          padding="5px 16px 20px"
+          align="center"
+          color="#262525"
+          font-size="14px"
+          font-weight="500"
+          font-family="Raleway, Arial"
+          line-height="20px"
+        >
+          Biz Support LLC (dba ThinkWallet), 30 N Gould St, Suite R, Sheridan, Wyoming 82801.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
